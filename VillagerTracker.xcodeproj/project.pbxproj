@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D7AD8A328F58FF2000D4EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8A228F58FF2000D4EEB /* AppDelegate.swift */; };
+		0D7AD8A528F58FF2000D4EEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8A428F58FF2000D4EEB /* SceneDelegate.swift */; };
+		0D7AD8A728F58FF2000D4EEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8A628F58FF2000D4EEB /* ViewController.swift */; };
+		0D7AD8AA28F58FF2000D4EEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7AD8A828F58FF2000D4EEB /* Main.storyboard */; };
+		0D7AD8AD28F58FF2000D4EEB /* VillagerTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8AB28F58FF2000D4EEB /* VillagerTracker.xcdatamodeld */; };
+		0D7AD8AF28F58FF3000D4EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7AD8AE28F58FF3000D4EEB /* Assets.xcassets */; };
+		0D7AD8B228F58FF3000D4EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7AD8B028F58FF3000D4EEB /* LaunchScreen.storyboard */; };
+		0D7AD8BD28F58FF3000D4EEB /* VillagerTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8BC28F58FF3000D4EEB /* VillagerTrackerTests.swift */; };
+		0D7AD8C728F58FF3000D4EEB /* VillagerTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8C628F58FF3000D4EEB /* VillagerTrackerUITests.swift */; };
+		0D7AD8C928F58FF3000D4EEB /* VillagerTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8C828F58FF3000D4EEB /* VillagerTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D7AD8B928F58FF3000D4EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D7AD89728F58FF2000D4EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D7AD89E28F58FF2000D4EEB;
+			remoteInfo = VillagerTracker;
+		};
+		0D7AD8C328F58FF3000D4EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D7AD89728F58FF2000D4EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D7AD89E28F58FF2000D4EEB;
+			remoteInfo = VillagerTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D7AD89F28F58FF2000D4EEB /* VillagerTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VillagerTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7AD8A228F58FF2000D4EEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D7AD8A428F58FF2000D4EEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D7AD8A628F58FF2000D4EEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D7AD8A928F58FF2000D4EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D7AD8AC28F58FF2000D4EEB /* VillagerTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VillagerTracker.xcdatamodel; sourceTree = "<group>"; };
+		0D7AD8AE28F58FF3000D4EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D7AD8B128F58FF3000D4EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D7AD8B328F58FF3000D4EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D7AD8B828F58FF3000D4EEB /* VillagerTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VillagerTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7AD8BC28F58FF3000D4EEB /* VillagerTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerTrackerTests.swift; sourceTree = "<group>"; };
+		0D7AD8C228F58FF3000D4EEB /* VillagerTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VillagerTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7AD8C628F58FF3000D4EEB /* VillagerTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerTrackerUITests.swift; sourceTree = "<group>"; };
+		0D7AD8C828F58FF3000D4EEB /* VillagerTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D7AD89C28F58FF2000D4EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7AD8B528F58FF3000D4EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7AD8BF28F58FF3000D4EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7AD89628F58FF2000D4EEB = {
+			isa = PBXGroup;
+			children = (
+				0D7AD8A128F58FF2000D4EEB /* VillagerTracker */,
+				0D7AD8BB28F58FF3000D4EEB /* VillagerTrackerTests */,
+				0D7AD8C528F58FF3000D4EEB /* VillagerTrackerUITests */,
+				0D7AD8A028F58FF2000D4EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D7AD8A028F58FF2000D4EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AD89F28F58FF2000D4EEB /* VillagerTracker.app */,
+				0D7AD8B828F58FF3000D4EEB /* VillagerTrackerTests.xctest */,
+				0D7AD8C228F58FF3000D4EEB /* VillagerTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D7AD8A128F58FF2000D4EEB /* VillagerTracker */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AD8A228F58FF2000D4EEB /* AppDelegate.swift */,
+				0D7AD8A428F58FF2000D4EEB /* SceneDelegate.swift */,
+				0D7AD8A628F58FF2000D4EEB /* ViewController.swift */,
+				0D7AD8A828F58FF2000D4EEB /* Main.storyboard */,
+				0D7AD8AE28F58FF3000D4EEB /* Assets.xcassets */,
+				0D7AD8B028F58FF3000D4EEB /* LaunchScreen.storyboard */,
+				0D7AD8B328F58FF3000D4EEB /* Info.plist */,
+				0D7AD8AB28F58FF2000D4EEB /* VillagerTracker.xcdatamodeld */,
+			);
+			path = VillagerTracker;
+			sourceTree = "<group>";
+		};
+		0D7AD8BB28F58FF3000D4EEB /* VillagerTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AD8BC28F58FF3000D4EEB /* VillagerTrackerTests.swift */,
+			);
+			path = VillagerTrackerTests;
+			sourceTree = "<group>";
+		};
+		0D7AD8C528F58FF3000D4EEB /* VillagerTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AD8C628F58FF3000D4EEB /* VillagerTrackerUITests.swift */,
+				0D7AD8C828F58FF3000D4EEB /* VillagerTrackerUITestsLaunchTests.swift */,
+			);
+			path = VillagerTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D7AD89E28F58FF2000D4EEB /* VillagerTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7AD8CC28F58FF3000D4EEB /* Build configuration list for PBXNativeTarget "VillagerTracker" */;
+			buildPhases = (
+				0D7AD89B28F58FF2000D4EEB /* Sources */,
+				0D7AD89C28F58FF2000D4EEB /* Frameworks */,
+				0D7AD89D28F58FF2000D4EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VillagerTracker;
+			productName = VillagerTracker;
+			productReference = 0D7AD89F28F58FF2000D4EEB /* VillagerTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D7AD8B728F58FF3000D4EEB /* VillagerTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7AD8CF28F58FF3000D4EEB /* Build configuration list for PBXNativeTarget "VillagerTrackerTests" */;
+			buildPhases = (
+				0D7AD8B428F58FF3000D4EEB /* Sources */,
+				0D7AD8B528F58FF3000D4EEB /* Frameworks */,
+				0D7AD8B628F58FF3000D4EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D7AD8BA28F58FF3000D4EEB /* PBXTargetDependency */,
+			);
+			name = VillagerTrackerTests;
+			productName = VillagerTrackerTests;
+			productReference = 0D7AD8B828F58FF3000D4EEB /* VillagerTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D7AD8C128F58FF3000D4EEB /* VillagerTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7AD8D228F58FF3000D4EEB /* Build configuration list for PBXNativeTarget "VillagerTrackerUITests" */;
+			buildPhases = (
+				0D7AD8BE28F58FF3000D4EEB /* Sources */,
+				0D7AD8BF28F58FF3000D4EEB /* Frameworks */,
+				0D7AD8C028F58FF3000D4EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D7AD8C428F58FF3000D4EEB /* PBXTargetDependency */,
+			);
+			name = VillagerTrackerUITests;
+			productName = VillagerTrackerUITests;
+			productReference = 0D7AD8C228F58FF3000D4EEB /* VillagerTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D7AD89728F58FF2000D4EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					0D7AD89E28F58FF2000D4EEB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					0D7AD8B728F58FF3000D4EEB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 0D7AD89E28F58FF2000D4EEB;
+					};
+					0D7AD8C128F58FF3000D4EEB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 0D7AD89E28F58FF2000D4EEB;
+					};
+				};
+			};
+			buildConfigurationList = 0D7AD89A28F58FF2000D4EEB /* Build configuration list for PBXProject "VillagerTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D7AD89628F58FF2000D4EEB;
+			productRefGroup = 0D7AD8A028F58FF2000D4EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D7AD89E28F58FF2000D4EEB /* VillagerTracker */,
+				0D7AD8B728F58FF3000D4EEB /* VillagerTrackerTests */,
+				0D7AD8C128F58FF3000D4EEB /* VillagerTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D7AD89D28F58FF2000D4EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7AD8B228F58FF3000D4EEB /* LaunchScreen.storyboard in Resources */,
+				0D7AD8AF28F58FF3000D4EEB /* Assets.xcassets in Resources */,
+				0D7AD8AA28F58FF2000D4EEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7AD8B628F58FF3000D4EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7AD8C028F58FF3000D4EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7AD89B28F58FF2000D4EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7AD8A728F58FF2000D4EEB /* ViewController.swift in Sources */,
+				0D7AD8A328F58FF2000D4EEB /* AppDelegate.swift in Sources */,
+				0D7AD8AD28F58FF2000D4EEB /* VillagerTracker.xcdatamodeld in Sources */,
+				0D7AD8A528F58FF2000D4EEB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7AD8B428F58FF3000D4EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7AD8BD28F58FF3000D4EEB /* VillagerTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7AD8BE28F58FF3000D4EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7AD8C728F58FF3000D4EEB /* VillagerTrackerUITests.swift in Sources */,
+				0D7AD8C928F58FF3000D4EEB /* VillagerTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D7AD8BA28F58FF3000D4EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D7AD89E28F58FF2000D4EEB /* VillagerTracker */;
+			targetProxy = 0D7AD8B928F58FF3000D4EEB /* PBXContainerItemProxy */;
+		};
+		0D7AD8C428F58FF3000D4EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D7AD89E28F58FF2000D4EEB /* VillagerTracker */;
+			targetProxy = 0D7AD8C328F58FF3000D4EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D7AD8A828F58FF2000D4EEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D7AD8A928F58FF2000D4EEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D7AD8B028F58FF3000D4EEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D7AD8B128F58FF3000D4EEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D7AD8CA28F58FF3000D4EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D7AD8CB28F58FF3000D4EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D7AD8CD28F58FF3000D4EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 239MK3D5Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VillagerTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helena.VillagerTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D7AD8CE28F58FF3000D4EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 239MK3D5Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VillagerTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helena.VillagerTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D7AD8D028F58FF3000D4EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 239MK3D5Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helena.VillagerTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VillagerTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VillagerTracker";
+			};
+			name = Debug;
+		};
+		0D7AD8D128F58FF3000D4EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 239MK3D5Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helena.VillagerTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VillagerTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VillagerTracker";
+			};
+			name = Release;
+		};
+		0D7AD8D328F58FF3000D4EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 239MK3D5Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helena.VillagerTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VillagerTracker;
+			};
+			name = Debug;
+		};
+		0D7AD8D428F58FF3000D4EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 239MK3D5Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helena.VillagerTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VillagerTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D7AD89A28F58FF2000D4EEB /* Build configuration list for PBXProject "VillagerTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7AD8CA28F58FF3000D4EEB /* Debug */,
+				0D7AD8CB28F58FF3000D4EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7AD8CC28F58FF3000D4EEB /* Build configuration list for PBXNativeTarget "VillagerTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7AD8CD28F58FF3000D4EEB /* Debug */,
+				0D7AD8CE28F58FF3000D4EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7AD8CF28F58FF3000D4EEB /* Build configuration list for PBXNativeTarget "VillagerTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7AD8D028F58FF3000D4EEB /* Debug */,
+				0D7AD8D128F58FF3000D4EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7AD8D228F58FF3000D4EEB /* Build configuration list for PBXNativeTarget "VillagerTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7AD8D328F58FF3000D4EEB /* Debug */,
+				0D7AD8D428F58FF3000D4EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0D7AD8AB28F58FF2000D4EEB /* VillagerTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0D7AD8AC28F58FF2000D4EEB /* VillagerTracker.xcdatamodel */,
+			);
+			currentVersion = 0D7AD8AC28F58FF2000D4EEB /* VillagerTracker.xcdatamodel */;
+			path = VillagerTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0D7AD89728F58FF2000D4EEB /* Project object */;
+}
