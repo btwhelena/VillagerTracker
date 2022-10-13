@@ -16,6 +16,13 @@
 		0D7AD8BD28F58FF3000D4EEB /* VillagerTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8BC28F58FF3000D4EEB /* VillagerTrackerTests.swift */; };
 		0D7AD8C728F58FF3000D4EEB /* VillagerTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8C628F58FF3000D4EEB /* VillagerTrackerUITests.swift */; };
 		0D7AD8C928F58FF3000D4EEB /* VillagerTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8C828F58FF3000D4EEB /* VillagerTrackerUITestsLaunchTests.swift */; };
+		0D7AD8DA28F596FE000D4EEB /* VillagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8D928F596FE000D4EEB /* VillagerModel.swift */; };
+		0D7AD8DC28F5AA5F000D4EEB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8DB28F5AA5F000D4EEB /* API.swift */; };
+		0D7AD8E028F5AD72000D4EEB /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8DF28F5AD72000D4EEB /* MainTabBarViewController.swift */; };
+		0D7AD8E228F5AE10000D4EEB /* IslandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8E128F5AE10000D4EEB /* IslandViewController.swift */; };
+		0D7AD8E428F5AE52000D4EEB /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8E328F5AE52000D4EEB /* FavoritesViewController.swift */; };
+		0D7AD8E628F5AE99000D4EEB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8E528F5AE99000D4EEB /* MainViewController.swift */; };
+		0D7AD8EC28F7967A000D4EEB /* VillagerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8EB28F7967A000D4EEB /* VillagerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		0D7AD8C228F58FF3000D4EEB /* VillagerTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VillagerTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7AD8C628F58FF3000D4EEB /* VillagerTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerTrackerUITests.swift; sourceTree = "<group>"; };
 		0D7AD8C828F58FF3000D4EEB /* VillagerTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D7AD8D928F596FE000D4EEB /* VillagerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerModel.swift; sourceTree = "<group>"; };
+		0D7AD8DB28F5AA5F000D4EEB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		0D7AD8DF28F5AD72000D4EEB /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		0D7AD8E128F5AE10000D4EEB /* IslandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandViewController.swift; sourceTree = "<group>"; };
+		0D7AD8E328F5AE52000D4EEB /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		0D7AD8E528F5AE99000D4EEB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0D7AD8EB28F7967A000D4EEB /* VillagerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,10 @@
 		0D7AD8A128F58FF2000D4EEB /* VillagerTracker */ = {
 			isa = PBXGroup;
 			children = (
+				0D7AD8D528F5939F000D4EEB /* Model */,
+				0D7AD8D628F593A6000D4EEB /* View */,
+				0D7AD8D728F593AC000D4EEB /* Controller */,
+				0D7AD8D828F593B9000D4EEB /* Service */,
 				0D7AD8A228F58FF2000D4EEB /* AppDelegate.swift */,
 				0D7AD8A428F58FF2000D4EEB /* SceneDelegate.swift */,
 				0D7AD8A628F58FF2000D4EEB /* ViewController.swift */,
@@ -127,6 +145,41 @@
 			path = VillagerTrackerUITests;
 			sourceTree = "<group>";
 		};
+		0D7AD8D528F5939F000D4EEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AD8D928F596FE000D4EEB /* VillagerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D7AD8D628F593A6000D4EEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AD8EB28F7967A000D4EEB /* VillagerListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0D7AD8D728F593AC000D4EEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AD8DF28F5AD72000D4EEB /* MainTabBarViewController.swift */,
+				0D7AD8E128F5AE10000D4EEB /* IslandViewController.swift */,
+				0D7AD8E328F5AE52000D4EEB /* FavoritesViewController.swift */,
+				0D7AD8E528F5AE99000D4EEB /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0D7AD8D828F593B9000D4EEB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AD8DB28F5AA5F000D4EEB /* API.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +190,7 @@
 				0D7AD89B28F58FF2000D4EEB /* Sources */,
 				0D7AD89C28F58FF2000D4EEB /* Frameworks */,
 				0D7AD89D28F58FF2000D4EEB /* Resources */,
+				0D7AD8ED28F8442D000D4EEB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -252,15 +306,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D7AD8ED28F8442D000D4EEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: Swiftlint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D7AD89B28F58FF2000D4EEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0D7AD8A728F58FF2000D4EEB /* ViewController.swift in Sources */,
+				0D7AD8E428F5AE52000D4EEB /* FavoritesViewController.swift in Sources */,
+				0D7AD8DA28F596FE000D4EEB /* VillagerModel.swift in Sources */,
+				0D7AD8EC28F7967A000D4EEB /* VillagerListCell.swift in Sources */,
 				0D7AD8A328F58FF2000D4EEB /* AppDelegate.swift in Sources */,
+				0D7AD8E028F5AD72000D4EEB /* MainTabBarViewController.swift in Sources */,
 				0D7AD8AD28F58FF2000D4EEB /* VillagerTracker.xcdatamodeld in Sources */,
+				0D7AD8DC28F5AA5F000D4EEB /* API.swift in Sources */,
 				0D7AD8A528F58FF2000D4EEB /* SceneDelegate.swift in Sources */,
+				0D7AD8E228F5AE10000D4EEB /* IslandViewController.swift in Sources */,
+				0D7AD8E628F5AE99000D4EEB /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
