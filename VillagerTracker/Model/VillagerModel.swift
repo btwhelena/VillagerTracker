@@ -2,12 +2,15 @@ import UIKit
 
 // Array de villagers que será a resposta do decode
 struct VillagersResponse: Decodable {
-    let array: [Villager]
+    var array: [Villager]
 
     init(from decoder: Decoder) throws {
         let container = try decoder.singleValueContainer() // Data
         let dict = try container.decode([String: Villager].self)
-        self.array = Array(dict.values)
+        self.array = Array(dict.values).sorted(by: {
+            $0.name.villagereEnglishName < $1.name.villagereEnglishName
+        })
+        self.array = Array(dict.values).sorted { $0.name.villagereEnglishName < $1.name.villagereEnglishName }
     }
 }
 

@@ -1,10 +1,3 @@
-//
-//  VillagerTrackerUITests.swift
-//  VillagerTrackerUITests
-//
-//  Created by Helena Oliveira on 11/10/22.
-//
-
 import XCTest
 
 final class VillagerTrackerUITests: XCTestCase {
@@ -14,8 +7,6 @@ final class VillagerTrackerUITests: XCTestCase {
 
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
 
     override func tearDownWithError() throws {

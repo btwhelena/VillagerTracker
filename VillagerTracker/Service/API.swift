@@ -21,7 +21,8 @@ class API {
             }
             do {
                 let result = try JSONDecoder().decode(VillagersResponse.self, from: data) // result é o dado decodado
-        completion(.success(result.array)) // se der certo, retorna o array decodado que está dentro da VillagersResponse
+                completion(.success(result.array))
+                // se der certo, retorna o array decodado que está dentro da VillagersResponse
             } catch {
                 print(error)
                 completion(.failure(APIError.failedToGetData)) // se der errado, retorna o erro

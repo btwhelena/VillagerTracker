@@ -4,7 +4,6 @@ class IslandViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemBackground
     }
 
 }
