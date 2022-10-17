@@ -24,6 +24,8 @@
 		0D7AD8E628F5AE99000D4EEB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8E528F5AE99000D4EEB /* MainViewController.swift */; };
 		0D7AD8EC28F7967A000D4EEB /* VillagerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8EB28F7967A000D4EEB /* VillagerListCell.swift */; };
 		0D7AD8F028F9895D000D4EEB /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8EF28F9895D000D4EEB /* UIImage+Ext.swift */; };
+		0D7AD8F428FB7B3B000D4EEB /* VillagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8F328FB7B3B000D4EEB /* VillagerViewController.swift */; };
+		0D7AD8F628FB7B76000D4EEB /* VillagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8F528FB7B76000D4EEB /* VillagerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		0D7AD8E528F5AE99000D4EEB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0D7AD8EB28F7967A000D4EEB /* VillagerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerListCell.swift; sourceTree = "<group>"; };
 		0D7AD8EF28F9895D000D4EEB /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		0D7AD8F328FB7B3B000D4EEB /* VillagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerViewController.swift; sourceTree = "<group>"; };
+		0D7AD8F528FB7B76000D4EEB /* VillagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				0D7AD8EB28F7967A000D4EEB /* VillagerListCell.swift */,
+				0D7AD8F528FB7B76000D4EEB /* VillagerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 			children = (
 				0D7AD8DF28F5AD72000D4EEB /* MainTabBarViewController.swift */,
 				0D7AD8E128F5AE10000D4EEB /* IslandViewController.swift */,
+				0D7AD8F328FB7B3B000D4EEB /* VillagerViewController.swift */,
 				0D7AD8E328F5AE52000D4EEB /* FavoritesViewController.swift */,
 				0D7AD8E528F5AE99000D4EEB /* MainViewController.swift */,
 			);
@@ -343,12 +349,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D7AD8A728F58FF2000D4EEB /* ViewController.swift in Sources */,
+				0D7AD8F428FB7B3B000D4EEB /* VillagerViewController.swift in Sources */,
 				0D7AD8E428F5AE52000D4EEB /* FavoritesViewController.swift in Sources */,
 				0D7AD8DA28F596FE000D4EEB /* VillagerModel.swift in Sources */,
 				0D7AD8EC28F7967A000D4EEB /* VillagerListCell.swift in Sources */,
 				0D7AD8A328F58FF2000D4EEB /* AppDelegate.swift in Sources */,
 				0D7AD8E028F5AD72000D4EEB /* MainTabBarViewController.swift in Sources */,
 				0D7AD8AD28F58FF2000D4EEB /* VillagerTracker.xcdatamodeld in Sources */,
+				0D7AD8F628FB7B76000D4EEB /* VillagerView.swift in Sources */,
 				0D7AD8DC28F5AA5F000D4EEB /* API.swift in Sources */,
 				0D7AD8A528F58FF2000D4EEB /* SceneDelegate.swift in Sources */,
 				0D7AD8F028F9895D000D4EEB /* UIImage+Ext.swift in Sources */,

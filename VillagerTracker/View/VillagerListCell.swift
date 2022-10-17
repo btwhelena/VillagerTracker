@@ -19,6 +19,8 @@ class VillagerListCell: UITableViewCell {
         setBgViewConstraints()
         setVillagerImageConstraints()
         setVillagerNameConstraints()
+
+        self.selectionStyle = .none
     }
 
     required init?(coder: NSCoder) {
@@ -63,7 +65,8 @@ class VillagerListCell: UITableViewCell {
             multiplier: 0.9
         ).isActive = true
         bgView.topAnchor.constraint(
-            equalTo: self.topAnchor
+            equalTo: self.topAnchor,
+            constant: 10
         ).isActive = true
         bgView.heightAnchor.constraint(
             equalTo: self.heightAnchor,
