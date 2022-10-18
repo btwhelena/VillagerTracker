@@ -13,8 +13,8 @@ class VillagerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        print(villager.name)
-        screen?.subImageView.downloaded(from: villager.imageURL, contentMode: .scaleAspectFill)
+        screen?.villagerImage.downloaded(from: villager.imageURL, contentMode: .scaleAspectFill)
+        screen?.villagerName.text = "\(villager.name.villagereEnglishName)"
     }
 
     init(with villager: Villager) {

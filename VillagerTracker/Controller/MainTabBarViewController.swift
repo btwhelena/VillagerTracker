@@ -4,8 +4,7 @@ class MainTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tabBar.barTintColor = UIColor(red: 0.61, green: 0.81, blue: 0.67, alpha: 1.00)
-
+        tabBar.barTintColor = UIColor(red: 78/255, green: 185/255, blue: 161/255, alpha: 1.00)
         let vc1 = UINavigationController(rootViewController: IslandViewController())
         let vc2 = UINavigationController(rootViewController: MainViewController())
         let vc3 = UINavigationController(rootViewController: FavoritesViewController())
@@ -21,8 +20,8 @@ class MainTabBarViewController: UITabBarController {
         tabBar.isOpaque = false
         tabBar.isTranslucent = false
 
-        tabBar.unselectedItemTintColor = .white
-        tabBar.tintColor = UIColor(red: 0.20, green: 0.41, blue: 0.31, alpha: 1.00)
+        tabBar.unselectedItemTintColor = UIColor(red: 0.20, green: 0.41, blue: 0.31, alpha: 1.00)
+        tabBar.tintColor = .white
 
         setViewControllers([vc1, vc2, vc3], animated: false)
         selectedIndex = 1

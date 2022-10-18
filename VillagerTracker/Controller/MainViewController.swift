@@ -17,18 +17,6 @@ class MainViewController: UIViewController {
         self.tableView.separatorColor = UIColor.clear
         self.title = "All villagers"
         self.navigationController?.navigationBar.prefersLargeTitles = true
-        //            private func getAllVillagers() {
-        //                API.shared.getAllVillagers { result in
-        //                    switch result {
-        //                    case .success(let array):
-        //                        for villager in array {
-        //                            print(villager)
-        //                        }
-        //                    case .failure(let error):
-        //                        print("🤡", error)
-        //                    }
-        //                }
-        //            }
         getAllVillagers()
         configureTableView()
 
