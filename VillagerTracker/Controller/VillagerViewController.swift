@@ -3,18 +3,29 @@ import UIKit
 class VillagerViewController: UIViewController {
 
     var villager: Villager
-    var screen: VillagerView?
+    var screen = VillagerView()
 
     override func loadView() {
-        self.screen = VillagerView()
         self.view = self.screen
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
-        screen?.villagerImage.downloaded(from: villager.imageURL, contentMode: .scaleAspectFill)
-        screen?.villagerName.text = "\(villager.name.villagereEnglishName)"
+        view.backgroundColor = UIColor(red: 150/255, green: 210/255, blue: 197/255, alpha: 1.00)
+        screen.villagerImage.downloaded(from: villager.imageURL, contentMode: .scaleAspectFill)
+        screen.villagerName.text = "\(villager.name.villagereEnglishName)"
+        screen.villagerInfo.text =
+        """
+        Specie: \(villager.species)
+
+        Gender: \(villager.gender)
+
+        Personality: \(villager.personality)
+
+        Birthday: \(villager.birthdayString)
+
+        Catch phrase: "\(villager.catchPhrase)"
+        """
     }
 
     init(with villager: Villager) {

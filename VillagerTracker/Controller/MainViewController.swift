@@ -91,13 +91,19 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
 
     func navigation (with villager: Villager) {
         let viewController = VillagerViewController(with: villager)
-        viewController.modalPresentationStyle = .fullScreen
-
-        // Sheet full screen a partir da propria view controller
-//        present(viewController, animated: true, completion: nil)
+        if let sheet = viewController.sheetPresentationController {
+            sheet.prefersGrabberVisible = true
+            sheet.largestUndimmedDetentIdentifier = .medium
+            sheet.prefersScrollingExpandsWhenScrolledToEdge = false
+            sheet.prefersEdgeAttachedInCompactHeight = true
+            sheet.widthFollowsPreferredContentSizeWhenEdgeAttached = true
+        }
+        present(viewController, animated: true, completion: nil)
 
         // Push full screen a partir da navigation controller (botao de back)
-        navigationController?.pushViewController(viewController, animated: true)
+        // viewController.modalPresentationStyle = .fullScreen
+        //        navigationController?.pushViewController(viewController, animated: true)
+        //        navigationController?.navigationBar.tintColor = .white
     }
 }
 
