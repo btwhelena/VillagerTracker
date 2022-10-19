@@ -5,10 +5,12 @@ class VillagerViewController: UIViewController {
     var villager: Villager
     var screen = VillagerView()
 
+// chamando a VillagerView ao carregar
     override func loadView() {
         self.view = self.screen
     }
 
+// puxando da api as características de cada villager e exibindo
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(red: 150/255, green: 210/255, blue: 197/255, alpha: 1.00)
@@ -28,6 +30,7 @@ class VillagerViewController: UIViewController {
         """
     }
 
+// iniciando com um villager do tipo Villager
     init(with villager: Villager) {
         self.villager = villager
         super.init(nibName: nil, bundle: nil)

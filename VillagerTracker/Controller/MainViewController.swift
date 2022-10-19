@@ -70,6 +70,7 @@ class MainViewController: UIViewController {
 
 extension MainViewController: UITableViewDelegate, UITableViewDataSource {
 
+// definindo que a quantidade de células da table view é a quantidade de villagers
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return villagers.count
     }

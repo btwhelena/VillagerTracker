@@ -2,6 +2,7 @@ import UIKit
 
 class VillagerView: UIView {
 
+// criando botao de adicionar à ilha
     let islandButton: UIButton = {
         let islandButton = UIButton()
         let largeConfig = UIImage.SymbolConfiguration(pointSize: 20, weight: .bold, scale: .large)
@@ -14,6 +15,7 @@ class VillagerView: UIView {
         return islandButton
     }()
 
+// criando botao de favoritar
     let favoriteButton: UIButton = {
         let favoriteButton = UIButton()
         let largeConfig = UIImage.SymbolConfiguration(pointSize: 20, weight: .bold, scale: .large)
@@ -26,6 +28,7 @@ class VillagerView: UIView {
         return favoriteButton
     }()
 
+// criando label para exibir o nome do villager
     var villagerName: UILabel = {
         var villagerName = UILabel()
         villagerName.translatesAutoresizingMaskIntoConstraints = false
@@ -35,6 +38,7 @@ class VillagerView: UIView {
         return villagerName
     }()
 
+// criando foto do villager
     var villagerImage: UIImageView = {
         var imageView = UIImageView()
         imageView.layer.cornerRadius = 30
@@ -43,6 +47,7 @@ class VillagerView: UIView {
         return imageView
     }()
 
+// criando box de informaçoes do villager
     var villagerInfo: UITextView = {
         var villagerInfo = UITextView()
         villagerInfo.translatesAutoresizingMaskIntoConstraints = false
@@ -55,6 +60,7 @@ class VillagerView: UIView {
         return villagerInfo
     }()
 
+// iniciando a view, adicionando os elementos anteriores a ela, e setando as constraints de cada coisa
     init() {
         super.init(frame: .zero)
         self.addSubview(islandButton)
@@ -71,6 +77,7 @@ class VillagerView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
+// constraints do nome do villager
     func setupNameConstrainsts() {
         NSLayoutConstraint.activate([
             villagerName.topAnchor.constraint(equalTo: self.topAnchor, constant: 0),
@@ -80,6 +87,7 @@ class VillagerView: UIView {
         ])
     }
 
+// constraints da foto do villager
     func setupImageConstrainsts() {
         NSLayoutConstraint.activate([
             villagerImage.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: -75),
@@ -89,6 +97,7 @@ class VillagerView: UIView {
         ])
     }
 
+// constraints das informacoes do villager
     func setupVillagerInfoConstraints() {
         NSLayoutConstraint.activate([
             villagerInfo.topAnchor.constraint(equalTo: villagerImage.bottomAnchor, constant: 30),
