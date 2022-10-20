@@ -28,6 +28,8 @@
 		0D7AD8F628FB7B76000D4EEB /* VillagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8F528FB7B76000D4EEB /* VillagerView.swift */; };
 		0D7AD90129003564000D4EEB /* VillagerSaved+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8FF29003564000D4EEB /* VillagerSaved+CoreDataClass.swift */; };
 		0D7AD90229003564000D4EEB /* VillagerSaved+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD90029003564000D4EEB /* VillagerSaved+CoreDataProperties.swift */; };
+		0D7AD905290175CE000D4EEB /* VillagerTracker 128 .png in Resources */ = {isa = PBXBuildFile; fileRef = 0D7AD904290175CE000D4EEB /* VillagerTracker 128 .png */; };
+		0D7AD907290176C5000D4EEB /* gif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0D7AD906290176C5000D4EEB /* gif1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		0D7AD8F528FB7B76000D4EEB /* VillagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerView.swift; sourceTree = "<group>"; };
 		0D7AD8FF29003564000D4EEB /* VillagerSaved+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VillagerSaved+CoreDataClass.swift"; sourceTree = "<group>"; };
 		0D7AD90029003564000D4EEB /* VillagerSaved+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VillagerSaved+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0D7AD904290175CE000D4EEB /* VillagerTracker 128 .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VillagerTracker 128 .png"; sourceTree = "<group>"; };
+		0D7AD906290176C5000D4EEB /* gif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		0D7AD89628F58FF2000D4EEB = {
 			isa = PBXGroup;
 			children = (
+				0D7AD90329017539000D4EEB /* Images */,
 				0D7AD8FF29003564000D4EEB /* VillagerSaved+CoreDataClass.swift */,
 				0D7AD90029003564000D4EEB /* VillagerSaved+CoreDataProperties.swift */,
 				0D7AD8A128F58FF2000D4EEB /* VillagerTracker */,
@@ -201,6 +206,15 @@
 				0D7AD8EF28F9895D000D4EEB /* UIImage+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0D7AD90329017539000D4EEB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AD906290176C5000D4EEB /* gif1.gif */,
+				0D7AD904290175CE000D4EEB /* VillagerTracker 128 .png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +322,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D7AD905290175CE000D4EEB /* VillagerTracker 128 .png in Resources */,
 				0D7AD8B228F58FF3000D4EEB /* LaunchScreen.storyboard in Resources */,
 				0D7AD8AF28F58FF3000D4EEB /* Assets.xcassets in Resources */,
+				0D7AD907290176C5000D4EEB /* gif1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
