@@ -14,21 +14,23 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // tirando o separador da lista e customizando o titulo
         self.tableView.separatorColor = UIColor.clear
         self.title = "All villagers"
         self.navigationController?.navigationBar.prefersLargeTitles = true
+
+        // pegando todos os villagers da api e configurando a table view (registrando a celula e sua altura)
         getAllVillagers()
         configureTableView()
 
+        // configurando o estilo da navbar
         let standard = UINavigationBarAppearance()
-
         standard.configureWithOpaqueBackground()
         standard.backgroundColor = UIColor(red: 78/255, green: 186/255, blue: 162/255, alpha: 1.00)
         standard.titleTextAttributes = [.foregroundColor: UIColor.white]
         standard.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
 
         let compact = UINavigationBarAppearance()
-
         compact.configureWithOpaqueBackground()
         compact.backgroundColor = UIColor(red: 78/255, green: 186/255, blue: 162/255, alpha: 1.00)
         compact.titleTextAttributes = [.foregroundColor: UIColor.white]
@@ -42,6 +44,7 @@ class MainViewController: UIViewController {
 
     }
 
+    // chamando a API e criando um array de villagers
     func getAllVillagers() {
         API.shared.getAllVillagers { [self] result in
             switch result {
@@ -53,6 +56,7 @@ class MainViewController: UIViewController {
         }
     }
 
+    // configuracao da table view (é chamado no viewdidload)
     func configureTableView() {
         view.addSubview(tableView)
         setTableViewDelegates()
@@ -61,6 +65,7 @@ class MainViewController: UIViewController {
         tableView.pin(to: view)
     }
 
+    // setando os dados da view
     func setTableViewDelegates() {
         tableView.delegate = self
         tableView.dataSource = self
@@ -70,11 +75,12 @@ class MainViewController: UIViewController {
 
 extension MainViewController: UITableViewDelegate, UITableViewDataSource {
 
-// definindo que a quantidade de células da table view é a quantidade de villagers
+    // definindo que a quantidade de células da table view é a quantidade de villagers
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return villagers.count
     }
 
+    // definindo a villagerlistcell como célula padrao da tableview
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "VillagerListCell") as? VillagerListCell
         if let cell = cell {
@@ -85,11 +91,13 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         return UITableViewCell()
     }
 
+    // definindo que ao clicar na celula, será chamada a funcao de navegacao, passando o villager daquela celula
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let villager = villagers[indexPath.row]
         navigation(with: villager)
     }
 
+    // navegando para uma nova view em forma de sheet e configurando o visual da sheet
     func navigation (with villager: Villager) {
         let viewController = VillagerViewController(with: villager)
         if let sheet = viewController.sheetPresentationController {
@@ -100,16 +108,12 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
             sheet.widthFollowsPreferredContentSizeWhenEdgeAttached = true
         }
         present(viewController, animated: true, completion: nil)
-
-        // Push full screen a partir da navigation controller (botao de back)
-        // viewController.modalPresentationStyle = .fullScreen
-        //        navigationController?.pushViewController(viewController, animated: true)
-        //        navigationController?.navigationBar.tintColor = .white
     }
 }
 
 extension UIView {
 
+    // constraints da tela
     func pin(to superView: UIView) {
         translatesAutoresizingMaskIntoConstraints = false
         topAnchor.constraint(equalTo: superView.topAnchor).isActive = true

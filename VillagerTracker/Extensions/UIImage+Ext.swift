@@ -1,6 +1,7 @@
 import Foundation
 import UIKit
 
+// extensao para fazer download da imagem via url
 extension UIImageView {
     func downloaded(from url: URL, contentMode mode: ContentMode = .scaleAspectFit) {
         contentMode = mode
@@ -10,7 +11,7 @@ extension UIImageView {
                 let mimeType = response?.mimeType, mimeType.hasPrefix("image"),
                 let data = data, error == nil,
                 let image = UIImage(data: data)
-                else { return }
+            else { return }
             DispatchQueue.main.async { [weak self] in
                 self?.image = image
             }

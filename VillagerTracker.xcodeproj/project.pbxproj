@@ -26,6 +26,8 @@
 		0D7AD8F028F9895D000D4EEB /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8EF28F9895D000D4EEB /* UIImage+Ext.swift */; };
 		0D7AD8F428FB7B3B000D4EEB /* VillagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8F328FB7B3B000D4EEB /* VillagerViewController.swift */; };
 		0D7AD8F628FB7B76000D4EEB /* VillagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8F528FB7B76000D4EEB /* VillagerView.swift */; };
+		0D7AD90129003564000D4EEB /* VillagerSaved+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD8FF29003564000D4EEB /* VillagerSaved+CoreDataClass.swift */; };
+		0D7AD90229003564000D4EEB /* VillagerSaved+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AD90029003564000D4EEB /* VillagerSaved+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		0D7AD8EF28F9895D000D4EEB /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		0D7AD8F328FB7B3B000D4EEB /* VillagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerViewController.swift; sourceTree = "<group>"; };
 		0D7AD8F528FB7B76000D4EEB /* VillagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerView.swift; sourceTree = "<group>"; };
+		0D7AD8FF29003564000D4EEB /* VillagerSaved+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VillagerSaved+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0D7AD90029003564000D4EEB /* VillagerSaved+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VillagerSaved+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		0D7AD89628F58FF2000D4EEB = {
 			isa = PBXGroup;
 			children = (
+				0D7AD8FF29003564000D4EEB /* VillagerSaved+CoreDataClass.swift */,
+				0D7AD90029003564000D4EEB /* VillagerSaved+CoreDataProperties.swift */,
 				0D7AD8A128F58FF2000D4EEB /* VillagerTracker */,
 				0D7AD8BB28F58FF3000D4EEB /* VillagerTrackerTests */,
 				0D7AD8C528F58FF3000D4EEB /* VillagerTrackerUITests */,
@@ -349,9 +355,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D7AD8A728F58FF2000D4EEB /* ViewController.swift in Sources */,
+				0D7AD90129003564000D4EEB /* VillagerSaved+CoreDataClass.swift in Sources */,
 				0D7AD8F428FB7B3B000D4EEB /* VillagerViewController.swift in Sources */,
 				0D7AD8E428F5AE52000D4EEB /* FavoritesViewController.swift in Sources */,
 				0D7AD8DA28F596FE000D4EEB /* VillagerModel.swift in Sources */,
+				0D7AD90229003564000D4EEB /* VillagerSaved+CoreDataProperties.swift in Sources */,
 				0D7AD8EC28F7967A000D4EEB /* VillagerListCell.swift in Sources */,
 				0D7AD8A328F58FF2000D4EEB /* AppDelegate.swift in Sources */,
 				0D7AD8E028F5AD72000D4EEB /* MainTabBarViewController.swift in Sources */,
