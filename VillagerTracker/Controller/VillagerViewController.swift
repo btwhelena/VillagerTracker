@@ -23,11 +23,11 @@ class VillagerViewController: UIViewController {
         Specie: \(villager.species)
         
         Gender: \(villager.gender)
-        
+    
         Personality: \(villager.personality)
-        
+
         Birthday: \(villager.birthdayString)
-        
+
         Catch phrase: "\(villager.catchPhrase)"
         """
     }
